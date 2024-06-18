@@ -66,7 +66,7 @@ The project has been refactored to improve maintainability and clarity. Below is
 
 - **URL:** `/create-inventory`
 - **Method:** `POST`
-- **New Validation Measures:
+- **New Validation Measures:**
   - **Name:** Must be a non-empty string.
   - **Category:** Must be a non-empty string.
   - **Quantity:** Must be a number and greater than 0. String numbers can be converted automatically.
