@@ -23,15 +23,7 @@ This project is an updated version of inventory management API. It allows you to
    npm run start
    ```
 
-### Running Tests
-
-1. **Install testing dependencies:**
-
-   ```bash
-   npm install --save-dev jest supertest @types/jest @types/supertest ts-jest
-   ```
-
-2. **Run the tests:**
+4. **Run the tests:**
 
    ```bash
    npm test
