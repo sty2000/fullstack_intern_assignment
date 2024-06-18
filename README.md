@@ -35,10 +35,6 @@ This project is an inventory management API built with Node.js and Express. It a
    ```
 
 ## Refactoring
-Sure, here's the refactored section of the README with concise English explanations:
-
----
-
 ## Refactored Project Structure
 
 The project has been refactored to improve maintainability and clarity. Below is a summary of the purpose of each new file and directory:
@@ -93,41 +89,5 @@ The project has been refactored to improve maintainability and clarity. Below is
 
 - **URL:** `/inventory/:id`
 - **Method:** `GET`
-- **Response:**
-  ```json
-  {
-    "id": 4,
-    "name": "Hat",
-    "category": "Apparel",
-    "quantity": 25,
-    "price": 15.99
-  }
-  ```
 
-## New Features
 
-- **Validation and Error Handling:** 
-  - Added validation for request payloads using `express-validator` to ensure data integrity.
-  - Implemented error handling middleware to manage unexpected errors gracefully.
-  
-- **Filtering and Pagination:**
-  - Support for filtering inventory items by category.
-  - Pagination support to limit the number of items returned per request.
-  
-- **CRUD Operations:**
-  - Create, update, delete, and retrieve inventory items.
-  - Comprehensive tests to ensure API endpoints function correctly.
-
-## Development
-
-- **Install nodemon:** Automatically restart the server on code changes.
-  ```bash
-  npm install --save-dev nodemon
-  ```
-
-- **Development script in `package.json`:**
-  ```json
-  "scripts": {
-    "dev": "nodemon --watch src --exec ts-node src/index.ts"
-  }
-  ```
