@@ -91,5 +91,5 @@ The project has been refactored to improve maintainability and clarity. Below is
 
 - **URL:** `/inventory/:id`
 - **Method:** `GET`
-
+- **Response:** Returns the inventory item with the specified ID
 
