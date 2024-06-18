@@ -37,7 +37,6 @@ This project is an inventory management API built with Node.js and Express. It a
    npm test
    ```
 
-## Refactoring
 ## Refactored Project Structure
 
 The project has been refactored to improve maintainability and clarity. Below is a summary of the purpose of each new file and directory:
@@ -53,7 +52,7 @@ The project has been refactored to improve maintainability and clarity. Below is
 
 ## Update of API Endpoints
 
-### List All Inventory Items
+### GET All Inventory Items
 
 - **URL:** `/inventory-all`
 - **Method:** `GET`
@@ -63,7 +62,7 @@ The project has been refactored to improve maintainability and clarity. Below is
   - `limit` (optional): Number of items per page (default: 10)
   ```
 
-### Create a New Inventory Item
+### POST a New Inventory Item
 
 - **URL:** `/create-inventory`
 - **Method:** `POST`
@@ -82,13 +81,13 @@ The project has been refactored to improve maintainability and clarity. Below is
 - **Method:** `PUT`
 -  **Response:** Returns the updated inventory item
 
-### Delete an Inventory Item
+### DELETE an Inventory Item
 
 - **URL:** `/delete-inventory/:id`
 - **Method:** `DELETE`
 - **Response:** Returns the inventory item with the specified ID
 
-### Get a Single Inventory Item by ID
+### GET a Single Inventory Item by ID
 
 - **URL:** `/inventory/:id`
 - **Method:** `GET`
