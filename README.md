@@ -60,7 +60,7 @@ The project has been refactored to improve maintainability and clarity. Below is
   - `category` (optional): Filter items by category
   - `page` (optional): Page number (default: 1)
   - `limit` (optional): Number of items per page (default: 10)
-  ```
+ 
 
 ### POST a New Inventory Item
 
