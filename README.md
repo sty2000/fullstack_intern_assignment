@@ -5,8 +5,11 @@ This project is an inventory management API built with Node.js and Express. It a
 
 ## Setup
 
-1. **Clone the repository**
+1. **Clone the repository：**
 
+   ```bash
+   git clone https://github.com/sty2000/fullstack_intern_assignment.git
+   ```
 
 2. **Install dependencies:**
 
