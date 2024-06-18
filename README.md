@@ -1,6 +1,6 @@
 # Inventory Management API
 
-This project is an inventory management API built with Node.js and Express. It allows you to manage inventory items with features such as listing, creating, updating, and deleting items. The project is written in TypeScript and includes validation and error handling.
+This project is an updated version of inventory management API. It allows you to manage inventory items with expanded CRUD operations. The project is written in TypeScript and includes validation, error handling and support of more paramters.
 
 
 ## Setup
